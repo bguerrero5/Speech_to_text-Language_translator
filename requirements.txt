@@ -1,0 +1,4 @@
+ibm-watson
+python-dotenv
+pandas
+numpy
