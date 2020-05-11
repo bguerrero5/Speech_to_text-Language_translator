@@ -1,4 +1,4 @@
-# Speech_to_text-Language_translator (Project from Python Basics for Data Science Class)
+# Speech_to_text-Language_translator (Project from Python Basics for Data Science Class by Coursera)
 
 Transcribes English audio to text and translates to any other language you select.
 
@@ -101,13 +101,29 @@ pip install -r requirements.txt
 Create an .env directory at the same level as the settings.py file. Then, create a file called ibm-credentials.env
 inside the .env directory you just created. And input your API informaiton for the instances you just creted inside this file. You should have something like this.
 
-<img src="" >
+<img src="images/terminal.png" >
 
 ```bash
 mkdir .env
 
 touch .env/ibm-credentials.env
-
 ```
 
+Run the settings.py file to load the your api keys into your enviroment.
 
+```bash
+python3 settings.py
+```
+Run the manage.py file and you should see the text translation in the language you selected for the loaded audio file.
+
+```bash
+python3 manage.py
+```
+
+The current avialable languages by IBM Language Translator API please visit: https://cloud.ibm.com/apidocs/language-translator
+
+
+## About the Authors:
+Joseph Santarcangelo is a Data Scientist at IBM, and holds a PhD in Electrical Engineering. His research focused on using Machine Learning, Signal Processing, and Computer Vision to determine how videos impact human cognition. Joseph has been working for IBM since he completed his PhD.
+
+Other contributors: Mavis Zhou
