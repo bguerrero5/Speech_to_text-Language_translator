@@ -68,3 +68,46 @@ On the next page, you will get to name your service instance and choose your reg
 Then scroll down and make sure that the lite plan is selected, and click the Create button.
 
 <img src="https://ibm-skills-network.gitlab.io/IBM_cloud_docs/SpeechToText/Create_Translation.png" width="50%">
+
+
+## Step 4 : Save your Language Translator API key
+
+Go to Manage, then save your Speech to Text API Key, and URL you will need it for the labs in this section.
+
+<img src="https://ibm-skills-network.gitlab.io/IBM_cloud_docs/SpeechToText/Translation_API.png" width="50%">
+
+
+
+## Installation 
+
+Once you have created your account with IBM and the instances name above. Clone this repository using the following command.
+
+```bash
+git clone https://github.com/bguerrero5/Speech_to_text-Language_translator.git
+```
+
+Create a python virutal enviroment in the same directory where you clone this respositry and activate.
+
+```bash
+python3 -m venv venv
+
+source vevn/bin/activate
+```
+Install requirememnts with pip.
+
+```bash
+pip install -r requirements.txt
+```
+Create an .env directory at the same level as the settings.py file. Then, create a file called ibm-credentials.env
+inside the .env directory you just created. And input your API informaiton for the instances you just creted inside this file. You should have something like this.
+
+<img src="" >
+
+```bash
+mkdir .env
+
+touch .env/ibm-credentials.env
+
+```
+
+
