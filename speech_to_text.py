@@ -6,7 +6,7 @@ import os
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 from settings import SPEECH_API_KEY, SPEECH_IAM_APIKEY, SPEECH_URL, SPEECH_AUTH_TYPE, LT_API_KEY, LT_IAM_APIKEY, LT_URL, LT_AUTH_TYPE
 
-
+# Authentication process for IBM Speech to Text API service.
 s2t_authenticator = IAMAuthenticator(SPEECH_API_KEY)
 speech_to_text = SpeechToTextV1(authenticator=s2t_authenticator)
 speech_to_text.set_service_url(SPEECH_URL)
@@ -15,7 +15,7 @@ speech_to_text.set_service_url(SPEECH_URL)
 def ibm_s2t(audio_file):
     """
     Requesting the IBM Speech to Text Api to recognize the text of an audio file.
-    Cleaning the api response to save all the regonized text into a variable called recorgnized_text.
+    Cleaning the api response to save all the regonized text into a variable called finished_text.
     """
     print()
     print("we are currently analyzing the audio file you provided. this should take a moment...".upper())
@@ -36,7 +36,7 @@ def ibm_s2t(audio_file):
     return finished_text
 
 
-# Authentication process for IBM Languate Transaltio API
+# Authentication process for IBM Languate Transaltio API service.
 
 lt_authenticator = IAMAuthenticator(LT_API_KEY)
 version_lt = "2018-05-01"
