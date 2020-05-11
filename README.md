@@ -56,5 +56,7 @@ Go to Manage, then save your Speech to Text API Key, and URL you will need it fo
 On the next page, you will get to name your service instance and choose your region. Click on the arrow to reveal the drop-down menu of regions. Make sure to select the region that is closest to you. Since I am located in Canada, then I am choosing Dallas as my region since it is the closest region to me.
 <img src="https://ibm-skills-network.gitlab.io/IBM_cloud_docs/SpeechToText/Naming_Language_Translator.png" width="50%">
 
+
 Then scroll down and make sure that the lite plan is selected, and click the Create button.
+
 <img src="https://ibm-skills-network.gitlab.io/IBM_cloud_docs/SpeechToText/Create_Translation.png" width="50%">
