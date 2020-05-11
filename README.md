@@ -120,7 +120,7 @@ Run the manage.py file and you should see the text translation in the language y
 python3 manage.py
 ```
 
-The current avialable languages by IBM Language Translator API please visit: https://cloud.ibm.com/apidocs/language-translator
+To view the current avialable languages available on IBM Language Translator API please visit: https://cloud.ibm.com/apidocs/language-translator
 
 
 ## About the Authors:
